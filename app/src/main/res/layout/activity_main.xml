@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textAlignment="center"
+        android:id="@+id/szoveg_textview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:text="SCAN"
+        android:id="@+id/button_scan"
         />
 
     <Button
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:text="KIIR"
+        android:id="@+id/button_kiir"
         />
 
 </LinearLayout>
